@@ -19,4 +19,7 @@
     <string name="main_activity_youtube_button_title">Youtube</string>
     <string name="main_activity_video_view_button_title">VideoView</string>
 
+  <string name="play_error_message">Impossible to play the video.</string>
+  <string name="play_progressive_error_message">Impossible to play the progressive video.</string>
+
 </resources>

@@ -18,9 +18,11 @@ package com.github.pedrovgs.sample.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.github.pedrovgs.sample.R;
+
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import com.github.pedrovgs.sample.R;
 
 /**
  * @author Pedro Vicente Gómez Sánchez.
@@ -54,7 +56,7 @@ public class MainActivity extends Activity {
 
     @OnClick(R.id.iv_video)
     void openVideoSampleActivity() {
-        Intent intent = new Intent(this, VideoSampleActivity.class);
+        Intent intent = new Intent(this, TextureViewSampleActivity.class);
         startActivity(intent);
     }
 }
